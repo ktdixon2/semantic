@@ -1,21 +1,29 @@
 body {
     justify-content: flex-end;
-    padding: 10px 100px 10px 100px;
     background-color: whitesmoke;
 }
 
-div {
+#main {
     width: 783px;
     margin: auto;
-    border: 3px solid blue;
+    padding: 5%;
+    border: 3px solid darkgrey;
+    box-shadow: 3px 5px gray;
+    background-color: white;
+    
 }
+
+#container {
+    background-image: url("../img/background.jpg");
 
 li {
     font-style: italic
 }
+
 .body_committees {
     margin: 10px;
 }
+
 .body_committees * li {
     color: gray;
 }
